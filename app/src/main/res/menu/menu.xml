@@ -1,0 +1,44 @@
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">--><!--<item android:id="@+id/action_search"--><!--android:title="Search"--><!--android:icon="@drawable/ss"--><!--app:showAsAction="ifRoom"/>--><!--<item android:id="@+id/action_notifications"--><!--android:title="notifications"--><!--android:icon="@drawable/ss"--><!--app:showAsAction="ifRoom"/>--><!--<item android:id="@+id/action_settings"--><!--android:title="action_settings"--><!--android:orderInCategory="100"--><!--android:icon="@drawable/ss"--><!--app:showAsAction="never"/>--><!--<item android:id="@+id/action_settings2"--><!--android:title="action_settings"--><!--android:orderInCategory="100"--><!--android:icon="@drawable/ss"--><!--app:showAsAction="never"/>--><!--<item android:id="@+id/action_settings3"--><!--android:title="action_settings"--><!--android:orderInCategory="100"--><!--android:icon="@drawable/ss"--><!--app:showAsAction="never"/>--><!--</menu>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.search_on_toolbar.SearchOnToolBarActivity">
+    <!--//这句代码最关键，实现了主要的搜索视图功能-->
+    <item
+        android:id="@+id/ab_search"
+        android:orderInCategory="1"
+        android:title="搜帖"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="2"
+        android:icon="@drawable/sss"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_notifications"
+        android:orderInCategory="3"
+        android:icon="@drawable/ss"
+        android:title="notifications"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ss"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:icon="@drawable/ss"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings3"
+        android:icon="@drawable/ss"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+</menu>

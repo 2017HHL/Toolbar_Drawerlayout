@@ -1,7 +1,7 @@
 # Toolbar_Drawerlayout
 ![github](https://raw.githubusercontent.com/2017HHL/Toolbar_Drawerlayout/master/1512458467.jpg "github")
 ![github](https://raw.githubusercontent.com/2017HHL/Toolbar_Drawerlayout/master/1512458467(1).jpg "github")
-![github](https://raw.githubusercontent.com/2017HHL/Toolbar_Drawerlayout/master/1512458467(2).jpg "github")
+
 
 # Android动画之仿美团加载数据等待时，小人奔跑进度动画对话框
 ### anim.xml文件如下
